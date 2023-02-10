@@ -1,0 +1,48 @@
+
+
+body{
+    background-image: url(torero.jpg);
+    background-size: cover;
+    color: white;
+    
+}
+#heading{
+        text-align: center;
+        display: flex;
+        width: 50%;
+        height: 100px;
+        margin: auto;
+        align-items:center;
+        justify-content:center;
+}
+
+.km1{
+        display: flex;
+        text-align: center;
+        justify-content:center;
+        
+
+}
+
+#club{
+    text-align: left;
+}
+
+
+
+
+#know-more{
+    background-color: red;
+    color: white;
+    border: none;
+    width:110px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 2rem;
+
+
+}
+
+

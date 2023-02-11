@@ -1,11 +1,20 @@
+*{
+    padding:3px;
+    margin: 0;
+    color: white;
 
-
+}
 body{
     background-image: url(torero.jpg);
+    width: 100%;
     background-size: cover;
-    color: white;
+    background-attachment: fixed;
+    
     
 }
+
+
+
 #heading{
         text-align: center;
         display: flex;
@@ -31,18 +40,5 @@ body{
 
 
 
-#know-more{
-    background-color: red;
-    color: white;
-    border: none;
-    width:110px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 13px;
-    font-weight: bold;
-    border-radius: 2rem;
-
-
-}
 
 

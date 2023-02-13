@@ -1,14 +1,14 @@
 *{
     padding:3px;
     margin: 0;
-    color: white;
+    color: blue;
 
 }
 body{
-    background-image: url(torero.jpg);
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
+    /* background-image: url(torero.jpg); */
+    /* width: 100%; */
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
     color: white;
     
     
@@ -37,6 +37,26 @@ body{
 #club{
     text-align: left;
 }
+/* .s2{
+    background-image:url(formula1.jpg);
+} */
+section{
+    height:100vh;
+    /* background-image: url(torero.jpg); */
+    /* padding-top: 20px; */
+    padding: 20px;
+
+
+}
+.s0,.s2, .s4{
+    background-image: url(formula2.jpg);
+
+}
+.s1,.s3{
+    background-image: url(torero.jpg);
+
+}
+
 
 
 

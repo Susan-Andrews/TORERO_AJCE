@@ -1,68 +1,26 @@
-*{
-    padding:3px;
-    margin: 0;
-    color: white;
-
-}
 body{
-    /* background-image: url(torero.jpg); */
-    /* width: 100%; */
-    /* background-size: cover; */
-    /* background-attachment: fixed; */
-    color: white;
-    
-    
+    background-image: url(src/torero.jpg);
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-
-
-#heading{
-        text-align: center;
-        display: flex;
-        width: 50%;
-        height: 100px;
-        margin: auto;
-        align-items:center;
-        justify-content:center;
+.club-name {
+    font-weight: bolder;
 }
 
-.km1{
-        display: flex;
-        text-align: center;
-        justify-content:center;
-        
-
-}
-
-#club{
-    text-align: left;
-}
-/* .s2{
-    background-image:url(formula1.jpg);
-} */
-section{
+#s1, #s2, #s3, #s4{
     height:100vh;
-    /* background-image: url(torero.jpg); */
-    /* padding-top: 20px; */
     padding: 20px;
-
-
-}
-.s0,.s2, .s4{
-    background-image: url(formula4.jpg);
-        background-size: cover; 
-
-
-
-}
-.s1,.s3{
-    background-image: url(torero.jpg);
-
+    color: white;
 }
 
+footer {
+    color: black;
+}
 
-
-
-
-
-
+#desc {
+    margin-top: 5em;
+    width: 80%;
+    margin: 5em auto 0 auto;
+}

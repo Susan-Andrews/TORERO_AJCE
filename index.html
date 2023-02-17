@@ -4,65 +4,37 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        
+        <!-- Local styles -->
         <link rel="stylesheet" href="style.css">
-        
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-        
     </head>  
     <body>
-        <section class="s0">
-                <div class="maindiv">
-                    <div id="heading">
-                        <h1 id="name">CYRUS MOTOSPORTS AJCE</h1>
+        <!-- Hero section -->
+        <section class="container" id="s1">
+                <div class="text-center" style="margin-top: 30%;">
+                    <div id="heading md">
+                        <h1 id="club-name">CYRUS MOTOSPORTS AJCE</h1>
                     </div>
-
-                    <div class="km1">
-                        <button type="button" class="btn btn-danger">Know More</button>
+                    <br>
+                    <div class="know-more">
+                        <a href="#s2">
+                            <button type="button" class="btn btn-danger">
+                                Know More
+                            </button>
+                        </a>
                     </div>
-
-                    <div id="club">
-                        <p>CLUB TORERO<p>
-                        <button type="button" class="btn btn-danger">Know More</button>
-
-                    </div>
-
-                    <!-- <div class="s-icon">
-                        Instagram
-                        <i class="fab fa-instagram"></i>
-                        Facebook 
-                        <i class="fab fa-facebook-f"></i>
-
-                        <a class="btn btn-primary" style="background-color: #3b5998;" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
-
-
-                        <a class="btn btn-primary btn-lg btn-floating" style="background-color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram"></i></a>
-                    </div> -->
+                </div>
         </section>            
         </div>   
-            <section class="s1">
-                     Over the years, Amal Jyothi College of Engineering
-                        Kanjirappally, Kerala has guided many prodigies into
-                        challenging and daring engineering disciplines. It
-                        allowed them to become technocrats able to solve,
-                        implement and improve technologies that made
-                        human life simpler during the short time since its
-                        establishment.
-                        <br><img src="ajce_logo.png" alt="aamaljyothi colege logo" width="50px" height="50px">
 
-            
-           
-                    <div><h2>CONTACT  DETAILS </h2></div>
-
-                    <div>MAILING ADDRESS </div>
-                    <div> EMAIL ADDRESS</div>
-                    <div> PHONE NUMBER</div>
-            </section>
-            <section class="s2">
-                <div>
-                    <h1>CYRUS MOTORSPORTS AJCE</h1>
+        <!-- Cyrus Motosports -->
+        <section class="container" id="s2">
+            <div class="text-center">
+                <h1 id="club-name">CYRUS MOTORSPORTS AJCE</h1>
+                <p id="desc">
                     Cyrus Motorsports AJCE is a students' formula racing team of Amal Jyothi College of Engineering established under
                     Club TORERO. The team aims to take part in National and International events such as the Society of Automotive
                     Engineers Supra 2023 (SAE Supra 2023), Formula Bharath and many other formula students racing events across
@@ -77,34 +49,104 @@
                     skills to design and construct a Formula category
                     vehicle as per defined performance and safety
                     specifications.
+                </p>
+            </div>
+        </section>
+
+        <!-- Club Torero -->
+        <section id="s3">
+            <div class="text-center">
+                <h1>Club TORERO</h1>
+                <p id="desc">
+                    TORERO, The Technical Club of Amal Jyothi College
+                    of Engineering, Kanjirapally is a collective of
+                    students and faculty of the college aimed to grant
+                    students the possibility to partake in multiple
+                    national and international events organized by expert
+                    associations like SAE, ASME, etc. In addition, the
+                    club aspires to conduct technical workshops, talks,
+                    classes and hands-on training on modern engineering
+                    advancements. The club produced teams to
+                    participate in Tractor Design Competition TDC SAE,
+                    Avian SAE Aerothon, and M Baja.
+                </p>
+            </div>
+        </section>
+        
+        <!-- Awards section -->
+        <section id="s4">
+            <div class="text-center mx-auto">
+                <h2>Awards and Recognition</h2>
+                <ul id="awards-desc">
+                    <li>SAE TDC overall 4th National Level</li>
+                    <li>Mega ATV competition 3rd State level</li>
+                    <li>Quad Torq design challenge 8th National Level</li>
+                </ul>
+            </div>
+        </section>
+
+            
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-dark text-light">
+            <div class="mt-3">
+                <img src="src/ajce_logo.png" alt="" height="80px" width="80px" style="margin: 2em;">
+            </div>
+        
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start mt-3">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3 text-secondary"></i>Cyrus Motosports
+                            </h6>
+                            <p>
+                                Over the years, Amal Jyothi College of Engineering
+                                Kanjirappally, Kerala has guided many prodigies into
+                                challenging and daring engineering disciplines. It
+                                allowed them to become technocrats able to solve,
+                                implement and improve technologies that made
+                                human life simpler during the short time since its
+                                establishment.
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+            
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                            <p><i class="fas fa-home me-3 text-secondary"></i> Amal Jyothi College of Engineering, Kanjirapally</p>
+                            <p>
+                            <i class="fas fa-envelope me-3 text-secondary"></i>
+                            info@example.com
+                            </p>
+                            <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+                            <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
                 </div>
             </section>
-            <section class="s3">
-                                    <h1>Club TORERO</h1>
-                <div>
-                TORERO, The Technical Club of Amal Jyothi College
-                of Engineering, Kanjirapally is a collective of
-                students and faculty of the college aimed to grant
-                students the possibility to partake in multiple
-                national and international events organized by expert
-                associations like SAE, ASME, etc. In addition, the
-                club aspires to conduct technical workshops, talks,
-                classes and hands-on training on modern engineering
-                advancements. The club produced teams to
-                participate in Tractor Design Competition TDC SAE,
-                Avian SAE Aerothon, and M Baja.
-                 </div>
-            </section>
+            <!-- Section: Links  -->
         
-            <section class="s4">
-                <div>
-                <h2>Awards and Recognition</h2>
-                <br>-SAE TDC overall 4th National Level
-                <br>-Mega ATV competition 3rd State level
-                <br>-Quad Torq design challenge 8th National Level
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(235, 235, 235, 0.025);">
+                © 2023 Copyright:
+                <a class="text-reset fw-bold" href="#">CSES6</a>
             </div>
-            </section>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
 
+
+            <!-- Bootstrap JS -->
+            <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     </body>
-
 </html>

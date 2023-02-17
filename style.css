@@ -1,5 +1,5 @@
 body{
-    background-image: url(torero.jpg);
+    background-image: url(src/torero.jpg);
     width: 100%;
     background-size: cover;
     background-attachment: fixed;

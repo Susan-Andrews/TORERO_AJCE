@@ -57,11 +57,11 @@ footer {
 
 .contacts a{
     text-decoration: none;
-    color: red;
+    color: white;
 }
 
 .contacts a:hover {
-    color: white;
+    color: red;
     text-decoration: underline;
 }
 

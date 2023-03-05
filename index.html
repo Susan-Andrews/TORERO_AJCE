@@ -21,16 +21,24 @@
 
     </head>  
     <body>
+        
+        <!-- Logo Nav -->
+        <nav class="navbar sticky-top">
+            <a class="navbar-brand" href="#">
+            <img src="src/logo.jpeg" width="100" height="100" alt="">
+            </a>
+        </nav>
+
         <!-- Hero section -->
-        <section class="container" id="s1">
-                <div class="text-center" style="margin-top: 30%;" data-aos="fade-right" data-aos-duration="2000">
+        <section class="container mx-auto" id="s1">
+                <div class="text-center" style="margin-top: 20%;" data-aos="fade-right" data-aos-duration="2000">
                     <div   id="heading md">
-                        <h1 id="club-name">CYRUS MOTOSPORTS AJCE</h1>
+                        <h1 id="club-name" style="font-weight: bolder;">CYRUS MOTOSPORTS AJCE</h1>
                     </div>
                     <br>
                     <div class="know-more">
                         <a href="#s2">
-                            <button type="button" class="btn btn-danger">
+                            <button type="button" class="btn btn-outline-light">
                                 Know More
                             </button>
                         </a>
@@ -39,58 +47,89 @@
         </section>            
         </div>   
 
+    <div class="about container mb-md-5">
         <!-- Cyrus Motosports -->
-        <section class="container" id="s2">
-            <div class="text-center" data-aos="fade-left" data-aos-duration="2000">
+        <section id="s2" class="mb-4"> 
+            <div class="text-center desc-cyrus" data-aos="fade-left">
                 <h1 id="club-name">CYRUS MOTORSPORTS AJCE</h1>
-                <p id="desc">
-                    Cyrus Motorsports AJCE is a students' formula racing team of Amal Jyothi College of Engineering established under
-                    Club TORERO. The team aims to take part in National and International events such as the Society of Automotive
-                    Engineers Supra 2023 (SAE Supra 2023), Formula Bharath and many other formula students racing events across
-                    India for the season 2023.
-                    The team designs, fabricates and tests formula-style race cars which gives students a chance to apply real-life
-                    engineering technologies. Formula student events provide a platform for engineering students to ideate, design,
-                    and select components by following strict SAE regulations which give .
-                    CYRUS MOTORSPORTS AJCE
-                    SAE SUPRA:SUPRA is organized annually by SAEINDIA
-                    with the support of Maruti Suzuki. The event provides
-                    a platform for students to apply their engineering
-                    skills to design and construct a Formula category
-                    vehicle as per defined performance and safety
-                    specifications.
-                </p>
+                <div class="row">
+                    <div class="col col-12 col-md-6">
+                        <p id="desc" class="text-left">
+                            Cyrus Motorsports AJCE is a students' formula racing team of Amal Jyothi College of Engineering established under
+                            Club TORERO. The team aims to take part in National and International events such as the Society of Automotive
+                            Engineers Supra 2023 (SAE Supra 2023), Formula Bharath and many other formula students racing events across
+                            India for the season 2023.
+                            The team designs, fabricates and tests formula-style race cars which gives students a chance to apply real-life
+                            engineering technologies. Formula student events provide a platform for engineering students to ideate, design,
+                            and select components by following strict SAE regulations which give .
+                            CYRUS MOTORSPORTS AJCE
+                            SAE SUPRA:SUPRA is organized annually by SAEINDIA
+                            with the support of Maruti Suzuki. The event provides
+                            a platform for students to apply their engineering
+                            skills to design and construct a Formula category
+                            vehicle as per defined performance and safety
+                            specifications.
+                        </p>
+                    </div>
+                    <div class="col col-md-6 col-12">
+                        <img src="src/cyrus1.jpg" class="img-fluid cyrus-hero" alt="cyrus team photo">
+                    </div>
+                </div>
             </div>
         </section>
 
         <!-- Club Torero -->
-        <section id="s3">
-            <div class="text-center" data-aos="fade-right" data-aos-duration="2000">
-                <h1>Club TORERO</h1>
-                <p id="desc">
-                    TORERO, The Technical Club of Amal Jyothi College
-                    of Engineering, Kanjirapally is a collective of
-                    students and faculty of the college aimed to grant
-                    students the possibility to partake in multiple
-                    national and international events organized by expert
-                    associations like SAE, ASME, etc. In addition, the
-                    club aspires to conduct technical workshops, talks,
-                    classes and hands-on training on modern engineering
-                    advancements. The club produced teams to
-                    participate in Tractor Design Competition TDC SAE,
-                    Avian SAE Aerothon, and M Baja.
-                </p>
+        <section id="s3" class="mb-4"> 
+            <div class="text-center desc-torero" data-aos="fade-right">
+                <h1>CLUB TORERO</h1>
+                <div class="row">
+                    <div class="col col-md-6 col-12">
+                        <img src="src/torero1.jpg" class="img-fluid" alt="torero team photo">
+                    </div>
+                    <div class="col col-md-6 col-12">
+                        <p id="desc" class="text-right">
+                            TORERO, The Technical Club of Amal Jyothi College
+                            of Engineering, Kanjirapally is a collective of
+                            students and faculty of the college aimed to grant
+                            students the possibility to partake in multiple
+                            national and international events organized by expert
+                            associations like SAE, ASME, etc. In addition, the
+                            club aspires to conduct technical workshops, talks,
+                            classes and hands-on training on modern engineering
+                            advancements. The club produced teams to
+                            participate in Tractor Design Competition TDC SAE,
+                            Avian SAE Aerothon, and M Baja.
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
+    </div>
         
         <!-- Awards section -->
         <section id="s4">
-            <div class="text-center mx-auto" data-aos="fade-left" data-aos-duration="2000">
-                <h2>Awards and Recognition</h2>
-                <ul id="awards-desc">
-                    <li>SAE TDC overall 4th National Level</li>
-                    <li>Mega ATV competition 3rd State level</li>
-                    <li>Quad Torq design challenge 8th National Level</li>
-                </ul>
+            <div class="text-center w-50 mx-auto" data-aos="fade-left" data-aos-duration="2000">
+                <h2>Awards and Recognition</h2><br>
+                <div class="card-deck">
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">SAE TDC</h5>
+                          <p class="card-text">Overall 4th in National Level</p>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Mega ATV Competition</h5>
+                          <p class="card-text">3rd in State Level</p>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Quad Torq Design Challenge</h5>
+                          <p class="card-text">8th in National Level</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -98,7 +137,7 @@
 
         <!-- Footer -->
         <footer class="text-center text-lg-start bg-dark text-light">
-            <div class="mt-3">
+            <div>
                 <img src="src/ajce_logo.png" alt="" height="80px" width="80px" style="margin: 2em;">
             </div>
         
@@ -123,11 +162,11 @@
                                 establishment.
                             </p>
                             <!-- social media icons -->
-                            <div class="d-grid gap-3 p-2 mt-4">
+                            <div class="socials d-grid gap-3 p-2 mt-4">
 
-                                <i style="font-size:24px;" class="fa pl-4" role="button">&#xf16d;</i>
-                                <i style="font-size:24px;" class="fa pl-4" role="button">&#xf230;</i>
-                                <i style="font-size:24px;" class="fa pl-4" role="button">&#xf1d9;</i>
+                                <a href="https://instagram.com/cyrus.motorsports.ajce?igshid=YmMyMTA2M2Y="><i style="font-size:24px;" class="fa pl-4" role="button">&#xf16d;</i></a>
+                                <a href="https://www.linkedin.com/company/cyrus-motorsports-ajce/"><i style="font-size:24px;" class="fa fa-linkedin-square pl-4" aria-hidden="true" role="button"></i></a>
+                                <a href="https://twitter.com/CyrusMotorsport?t=PQpuXzn48jOl9Rj4744GrQ&s=09"><i style="font-size:24px;" class="fa fa-twitter pl-4" aria-hidden="true" role="button"></i></a>
                             
                             </div>
 
@@ -137,17 +176,17 @@
                         <!-- Grid column -->
             
                         <!-- Grid column -->
-                        <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4">
+                        <div class="contacts col-md-6 col-lg-6 col-xl-6 mx-auto mb-md-0 mb-4">
                             <!-- Links -->
                             <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
                             <div class="text-left">
-                                <p><i class="fas fa-home pr-4 text-secondary"></i> Amal Jyothi College of Engineering, Kanjirapally</p>
+                                <p><i class="fa fa-home pr-4 pl-4 text-secondary"></i> Amal Jyothi College of Engineering, Kanjirapally</p>
                                 <p>
-                                <i class="fas fa-envelope pr-4 text-secondary"></i>
-                                info@example.com
+                                <i class="fa fa-envelope pr-4 pl-4 text-secondary"></i>
+                                <a href="mailto:cyrusmotorsports@ajce.in">cyrusmotorsports@ajce.in</a>
                                 </p>
-                                <p><i class="fas fa-phone pr-4 text-secondary"></i> + 01 234 567 88</p>
-                                <p><i class="fas fa-print pr-4 text-secondary"></i> + 01 234 567 89</p>
+                                <p><i class="fa fa-phone pr-4 pl-4 text-secondary"></i> Abin K John: <a href="callto:+919961427615">+91 99614 27615</a></p>
+                                <p><i class="fa fa-phone pr-4 pl-4 text-secondary"></i> Tenny Thomas: <a href="callto:+919947087163">+91 99470 87163</a></p>
                             </div>
                         </div>
                         <!-- Grid column -->

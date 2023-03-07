@@ -13,19 +13,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#hero-name {
-    margin: 20%;
-    font-size: 2.5rem;
-}
-
-#hero-name p {
+#hero-name p, #club-name {
     margin: 0;
+    font-weight: bolder;
+    font-size: 2.5rem;
 }
 
 #s1{
     height:80vh;
     margin: 10px;
     color: white;
+    display: grid;
+    place-items: center;
 }
 
 #s4 {
@@ -69,7 +68,7 @@ footer {
     #desc {
       text-align: center !important;
     }
-    #hero-name {
+    #hero-name, #club-name {
         font-size: 2rem;
     }
   }

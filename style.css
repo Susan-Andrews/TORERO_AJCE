@@ -27,6 +27,7 @@ body {
 }
 
 .about {
+    overflow-x: ;
     background-color: rgb(50, 50, 50);
     color: white;
     padding: 5rem;

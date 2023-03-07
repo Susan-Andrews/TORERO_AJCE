@@ -24,7 +24,6 @@ body {
     align-items: center;
     margin: 5em 0 2em 0;
     padding-top: 30px;
-    overflow-x: hidden;
 }
 
 .about {
@@ -37,6 +36,10 @@ body {
 
 .about img {
     margin-top: 2em;
+}
+
+#s1, #s2, #s3, #s4 {
+    overflow-x: hidden;
 }
 
 footer {

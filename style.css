@@ -68,7 +68,7 @@ footer {
     #desc {
       text-align: center !important;
     }
-    #hero-name, #club-name {
+    #hero-name, #club-name, #awards {
         font-size: 2rem;
     }
   }

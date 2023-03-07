@@ -24,10 +24,10 @@ body {
     align-items: center;
     margin: 5em 0 2em 0;
     padding-top: 30px;
+    overflow-x: hidden;
 }
 
 .about {
-    overflow-x: ;
     background-color: rgb(50, 50, 50);
     color: white;
     padding: 5rem;

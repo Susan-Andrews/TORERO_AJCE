@@ -19,6 +19,15 @@ body {
     font-size: 2.5rem;
 }
 
+
+/* For navbar bg-color */
+
+.bgcolor{
+    transition: all 1s;
+    background-color: rgb(50, 50, 50);
+    color:white;
+}
+
 #s1{
     height:80vh;
     margin: 10px;

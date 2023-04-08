@@ -29,7 +29,7 @@ body {
 }
 
 #s1{
-    height:80vh;
+    min-height:100vh;
     margin: 10px;
     color: white;
     display: grid;

@@ -27,7 +27,9 @@ body {
     background-color: rgb(50, 50, 50);
     color:white;
 }
-
+#nav{
+    height: 90px;
+}
 #s1{
     min-height:100vh;
     margin: 10px;

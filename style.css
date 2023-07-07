@@ -27,9 +27,8 @@ body {
     background-color: rgb(50, 50, 50);
     color:white;
 }
-#nav{
-    height: 90px;
-}
+
+
 #s1{
     min-height:100vh;
     margin: 10px;
@@ -82,6 +81,14 @@ footer {
     #hero-name, #club-name, #awards {
         font-size: 2rem;
     }
+    .navbar-nav , nav{
+        background-color: rgb(50, 50, 50);
+    }
+    ul{
+        width: 100%;
+    } 
+    
+   
   }
 
 .desc-cyrus, .desc-torero {
